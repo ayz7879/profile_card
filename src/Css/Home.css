@@ -1,0 +1,49 @@
+.home{
+    display: flex;
+    margin-top: 3rem;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.btn button{
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border: 2px solid darkgrey;
+    margin-top: 2rem;
+}
+
+.btn button:nth-child(1){
+    background-color: darkgoldenrod;
+    color: white;
+}
+.btn button:nth-child(2){
+    background-color: darkslateblue;
+    color: white;
+}
+.btn button:nth-child(3){
+    background-color: darkred;
+    color: white;
+}
+.btn button:hover{
+    background-color: black;
+}
+textarea{
+    padding: 2rem;
+}
+.preview{
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.preview h2{
+    background-color: white;
+    color: black;
+}
